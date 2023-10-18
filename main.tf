@@ -7,7 +7,7 @@ terraform {
   }
 }
 
-module "vpc_example_simple" {
-  source  = "terraform-aws-modules/vpc/aws//examples/simple"
+module "vpc" {
+  source  = "terraform-aws-modules/vpc/aws"
   version = "5.1.2"
 }
